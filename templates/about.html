@@ -5,10 +5,15 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/app.css') }}" />
     <title>My Website - About</title>
 </head>
 <body>
     <h1>Omar Peart</h1>
+    <img src="{{ url_for('static',filename='images/banner.jpg') }}" alt="banner-image" id="banner"/>
     <p>Originating from the vibrant city of Kingston, Jamaica, I am a 27-year-old innovative web developer. My foundation in this field is cemented by a Bachelor's degree in Computer Science, supplemented by a Minor in Economics, both of which I earned from the prestigious University of the West Indies. Presently, I specialize in full stack and mobile development, exhibiting proficiency in multiple programming languages including Java, Javascript, and Python. My holistic understanding of technology coupled with a passion for creative problem-solving drives my commitment towards designing and developing seamless, user-centric digital solutions.</p>
 </body>
 </html>
